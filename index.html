@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PiggiesAndZombies</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="script/script.js"></script>
+    <script src="script/api.js"></script>
+</head>
+
+<body>
+    <img class="gameimage" src="images/apocalypse.jpg" />
+    <div class="gameinfo">
+        <h5 class="update" id="update">There is a zombie apocalypse going on, save the poor guinea pigs from the zombies before it's too late!</h5>
+        <h4 class="update2" id="update2">Score 5 points before you meet a zombie to win the game</h4>
+        <p id="points">Points: 0</p>
+    </div>
+    <p id="current-position">Your current position: Row 1, Column 1</p>
+    <div class="container">
+        <div class="arraybox" id="array-container"></div>
+    </div>
+    <div bottom: 30px> 
+        <button class="north" onclick="navigateUp()">North</button>
+        <button class="south" onclick="navigateDown()">South</button>
+        <button class="west" onclick="navigateLeft()">West</button>
+        <button class="east" onclick="navigateRight()">East</button>
+        <br><br><br>
+        <div class="joke" id="joke"></div>
+        <p>While you're here, I have a joke you might not've heard before</p>
+        
+    </div>
+    </div>
+</body>
+
+</html>

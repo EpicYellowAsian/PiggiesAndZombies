@@ -1,0 +1,122 @@
+body
+{
+    background-color: lightgreen;
+    text-align: center;
+}
+
+#update
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 10px solid darkblue;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#update2
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.container 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#array-container td 
+{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 24px;
+    border: 10px solid black;
+}
+
+#points
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: wavy;
+}
+
+#current-position 
+{
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+.coords
+{
+    display: flex;
+    position: absolute;
+    top: 25em;
+}
+
+.north
+{
+    position:relative;
+    width: 60px;
+    height: 20px;
+    top: 10px;
+    left: 97px;
+}
+
+.west
+{
+    position:relative;
+    width: 60px;
+    height: 20px;
+    top: 25px;
+    right: 94px;
+}
+
+.east
+{
+    position:relative;
+    width: 60px;
+    height: 20px;
+    top: 25px;
+    right: 32px
+}
+
+.south
+{
+    position:relative;
+    width: 60px;
+    height: 20px;
+    top: 40px;
+    left: 33px;
+}
+
+table
+{
+    border-color: black;
+    border-style: double;
+}
+
+td
+{
+    width: 2cm;
+    height: 2cm;
+    border-color: black;
+    border-style: double;
+}
+
+.zombie 
+{
+    background-color: purple;
+}
+
+.piggie 
+{
+    background-color: darkgoldenrod;
+}
+
+.gameimage
+{
+    width: 1000px;
+    height: 600px; 
+}
